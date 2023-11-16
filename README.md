@@ -15,13 +15,14 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez. (switch case
 4 - Desenvolva um script calculadora com os 4 operadores somar, subtrair, dividir e multiplicar.
 
 5 - O cardápio da lanchonete é dado pela tabela abaixo, insira na tela o código do produto, e retorno o produto e seu valor
-Código Produto Preço Unitário (R$)
-100 Cachorro quente R$ 12,70
-101 Bauru Simples R$ 4,00
-102 Bauru com ovo R$ 4,60
-103 Hambúrguer R$ 15,00
-104 Cheeseburger R$ 13,50
-05 Refrigerante R$ 4,50
+
+    Código Produto Preço Unitário (R$)
+    100 Cachorro quente R$ 12,70
+    101 Bauru Simples R$ 4,00
+    102 Bauru com ovo R$ 4,60
+    103 Hambúrguer R$ 15,00
+    104 Cheeseburger R$ 13,50
+    05 Refrigerante R$ 4,50
 
 
 
