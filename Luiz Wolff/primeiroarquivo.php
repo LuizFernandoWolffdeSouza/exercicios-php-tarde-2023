@@ -18,8 +18,9 @@
             var num1 = document.getElementById('num1').value;
             var num2 = document.getElementById('num2').value;
 
-           window.open(`segundoarquivo.php?numero1=${num1}&numero2=${num2}`)
+           window.open(`segundoarquivo.php?numero1= ${num1}&numero2=${num2}`)
             alert(num1)
+            
             
         }
         

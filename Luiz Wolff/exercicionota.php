@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nota</title>
+    <style>
+    </style>
 </head>
 <body>
 <form>
@@ -19,7 +21,8 @@
     function verificar() {
         var nota = document.getElementById('nota').value;
         var nota2 = document.getElementById('nota2').value;
-        window.open(`recebenota.php?nota1=${nota}&nota2=${nota2}`)
+
+        window.open(`recebeEX.php?nota1=${nota}&nota2=${nota2}`)
         
     
         }

@@ -13,11 +13,6 @@
         // das 18 horas até a 0 horas escreva boa noite (if else);
 
 
-//         2 - Desenvolva um script que recebe duas notas de um aluno. Em seguida deve ser calcular a média do aluno e dar o seguinte resultado:
-// A mensagem "Aprovado", se a média alcançada for maior ou igual a seis;
-// A mensagem "Reprovado", se a média for menor do que seis;
-// A mensagem "Aprovado com Distinção", se a média for igual a dez. (switch case) -->
-
     
 <?php 
   $hora = 12;
@@ -29,13 +24,16 @@
   else if ($hora >= 12 && $hora <=18) {
     echo "Boa tarde são: $hora";
   }
-  else if ($hora == 0 ) {
-    echo "Boa noite são: $hora";
-  } 
+  else {
+    echo "Boa noite são :$hora";
+  }
+  // else if ($hora == 0 ) {
+  //   echo "Boa noite são: $hora";
+  // } 
 
-  else if ($hora >= 18 ) {
-    echo "Boa noite são: $hora";
-  } 
+  // else if ($hora >= 18 ) {
+  //   echo "Boa noite são: $hora";
+  // } 
 ?>
 <br>
 
