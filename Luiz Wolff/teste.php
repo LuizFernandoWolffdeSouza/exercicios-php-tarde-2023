@@ -21,15 +21,15 @@
 
    if( !empty($op) ) {
       if($op == '+')
-         $c = $a + $b;
+      $op =   $a + $b;
       else if($op == '-')
-         $c = $a - $b;
+      $op =  $a - $b;
       else if($op == '*')
-         $c = $a*$b;
+      $op =  $a*$b;
       else
-         $c = $a/$b;
+       $a/$b;
 
-      echo "O resultado da opera&ccedil;&atilde;o &eacute;: $c";
+      echo "O resultado: $op";
    }
 
 ?>       
