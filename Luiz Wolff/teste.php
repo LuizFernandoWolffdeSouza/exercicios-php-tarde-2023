@@ -21,11 +21,11 @@
 
    if( !empty($op) ) {
       if($op == '+')
-      $op =   $a + $b;
+      $op2 =   $a + $b;
       else if($op == '-')
-      $op =  $a - $b;
+      $op2 =  $a - $b;
       else if($op == '*')
-      $op =  $a*$b;
+      $op2 =  $a*$b;
       else
        $a/$b;
 
