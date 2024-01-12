@@ -3,12 +3,14 @@
 
 $n1 = $_GET['n1'];
 
-for($i=0; $i >= 100; $i--) { 
-    $result = $n1*$i;
-    // $caco = $n1." ".$result;
-    echo "$result";
+$result = 0;    
+for($i = $n1; $i > 1; $i--) { 
 
+    $result = $result * $i;
+
+    
 }
 
+echo $result;
 
 ?>
