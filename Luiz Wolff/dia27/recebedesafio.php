@@ -1,11 +1,16 @@
 <?php
-    $num = $_GET['valor1'];
+    $tabuada = $_GET['tabuadas'];
 
+// if ($tabuada == 1) {
 
-for ($i=0; $i<= 10 ; $i++) { 
-        $result = $num *$i;
+// }
+for ($i=$tabuada ; $i <= 10 ; $i++) { 
+    $result = $result *$i;
 }
-    echo "caco $result";
+echo $result;
+
+
+   
  
    
         
